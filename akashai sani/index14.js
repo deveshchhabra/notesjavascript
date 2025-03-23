@@ -12,7 +12,7 @@
 // }
 
 
-const radius=[3,1,2,4]
+// const radius=[3,1,2,4]
 
 // const calculatearea=function(radius){
 //     const output=[];

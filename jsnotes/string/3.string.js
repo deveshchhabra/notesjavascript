@@ -58,9 +58,41 @@
 
 
 // console.log(Difference(A,C))
-function AddElement(array){
-    array.splice(0,0,9)
-    console.log(array)
+// function AddElement(array){
+//     array.splice(0,0,9)
+//     console.log(array)
+// }
+// const array = [1, 2, 3, 2, 3];
+// console.log(AddElement(array))
+
+// var superhuman="This IS my super HERO"
+
+// let superHero="This IS my super HERO"
+// console.log(window.superhuman)
+// console.log(window.superHero)
+
+// function sum(num1,num2){
+//     return arguments[0]+arguments[1]
+// }
+// console.log(sum(10,10))
+
+// function show(){
+//     this.lang="LoveReact"
+//     this.showlang=()=>{
+//         console.log(`this${this.lang}`)
+//     }
+// }
+// let data=new show()
+// let fn=data.showlang
+// fn();
+
+// console.log([]=="")
+// console.log([]==[])
+// console.log([]===[])
+
+let mergetwoArray=(str1,str2)=>{
+    let str=[...str1,...str2]
+    str.join('')
+    return str;
 }
-const array = [1, 2, 3, 2, 3];
-console.log(AddElement(array))
+console.log(mergetwoArray("dev","chhabra"))

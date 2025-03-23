@@ -130,28 +130,28 @@
 // counter2();
 
 
-function Counter(){
-  var count=0;
-  this.incrementCounter=function(){
-    count++;
-    console.log(count)
-  }
-  this.decrementCounter=function(){
-    count--;
-    console.log(count)
-  }
-}
+// function Counter(){
+//   var count=0;
+//   this.incrementCounter=function(){
+//     count++;
+//     console.log(count)
+//   }
+//   this.decrementCounter=function(){
+//     count--;
+//     console.log(count)
+//   }
+// }
 
-var counter=new Counter();
-counter.incrementCounter()
-counter.incrementCounter()
-counter.decrementCounter()
+// var counter=new Counter();
+// counter.incrementCounter()
+// counter.incrementCounter()
+// counter.decrementCounter()
 
-function a (){
-  var a=0,z;
-  return function b(){
-    console.log(a)
-  }
-}
-var y=a();
-y()
+// function a (){
+//   var a=0,z;
+//   return function b(){
+//     console.log(a)
+//   }
+// }
+// var y=a();
+// y()
